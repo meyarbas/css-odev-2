@@ -81,10 +81,6 @@ footer {
     background-color: #7EE5DA;
 }
 
-.footer-box1-inline {
-    width: 100%;
-}
-
 .footer-box2 {
     display: flex;
     width: 19.5%;
@@ -93,10 +89,6 @@ footer {
     align-items: center;
     background-color: #70CCC2;
     font-size: 13px;
-}
-
-.footer-box2-inline {
-    width: 100%;
 }
 
 .footer-box3 {
@@ -108,7 +100,7 @@ footer {
     font-size: 13px;
 }
 
-.footer-box3-inline {
+.footer-box1-inline, .footer-box2-inline, .footer-box3-inline {
     width: 100%;
 }
 
