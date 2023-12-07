@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Google!</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="/style.css">
 	</head>
 	<body>
 
@@ -16,7 +16,7 @@
 
                 <div class="logo-section">
                     <div class="logo-inline">
-                        <img src="img/google.jpg" width="351" height="113" alt="Google!">
+                        <img src="/img/google.jpg" width="351" height="113" alt="Google!">
                     </div>
                 </div>
 
@@ -34,31 +34,21 @@
                 <!-- Content - Start -->
                 <section>
 
-                    <!-- Article - Start -->
-                    <article>
-
-                        <form method="GET" action="http://www.google.com/search">
-                            <center>
-                                <table border="0" width="90%">
-                                    <tbody>
-                                        <tr>
-                                            <td colspan="3">
-                                                <center>
-                                                    Search the web using Google! <br />
-                                                    <input type="text" name="q" value="" size="40" /><br />
-                                                    <input type="submit" name="btnK" value="Google Search" />
-                                                    <input type="submit" name="btnI" value="I'm feeling lucky" jsaction="trigger.kWlxhc">
-                                                    <br />
-                                                </center>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </center>
-                        </form>
-
-                    </article>
-                    <!-- Article - End -->
+                    <form method="GET" action="http://www.google.com/search" class="centered">
+                        <table width="90%">
+                            <tbody>
+                                <tr>
+                                    <td colspan="3">
+                                        Search the web using Google! <br />
+                                        <input type="text" name="q" value="" size="40" /><br />
+                                        <input type="submit" name="btnK" value="Google Search" />
+                                        <input type="submit" name="btnI" value="I'm feeling lucky" jsaction="trigger.kWlxhc">
+                                        <br />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
 
                 </section>
                 <!-- Content - End -->
@@ -74,8 +64,8 @@
 
             <div class="footer-inline">
 
-                <div class="footer-box1">
-                    <div class="footer-box1-inline">
+                <div id="footer-box1">
+                    <div id="footer-box1-inline">
                         <ul>Special Searches
                             <li><a href="/web/19981202230410/http://www.google.com/stanford">Stanford Search</a></li>
                             <li><a href="/web/19981202230410/http://www.google.com/linux">Linux Search</a></li>
@@ -83,8 +73,8 @@
                     </div>
                 </div>
 
-                <div class="footer-box2">
-                    <div class="footer-box2-inline">
+                <div id="footer-box2">
+                    <div id="footer-box2-inline">
                         <ul>
                             <li><a href="help.html">Help!</a></li>
                             <li><a href="about.html">About Google!</a></li>
@@ -94,22 +84,20 @@
                     </div>
                 </div>
 
-                <div class="footer-box3">
-                    <div class="footer-box3-inline">
+                <div id="footer-box3">
+                    <div id="footer-box3-inline">
 
-                        <form method="GET" action="https://web.archive.org/web/19981202230410/http://www.findmail.com/cgi-bin/subscribe.py">
-                            <table border="0" width="100%">
+                        <form method="GET" action="https://web.archive.org/web/19981202230410/http://www.findmail.com/cgi-bin/subscribe.py" class="centered">
+                            <table width="100%">
                                 <tbody>
                                     <tr>
-                                        <td align="right">
-                                            <center>
-                                                Get Google! <br> updates monthly: <br>
-                                                <input type="hidden" name="listname" value="google-friends">
-                                                <input type="text" name="emailaddr" value="your e-mail"> <br>
-                                                <input type="submit" name="SubmitAction" value="Subscribe">
-                                                &nbsp;&nbsp;
-                                                <a href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/">Archive</a>
-                                            </center>
+                                        <td>
+                                            Get Google! <br> updates monthly: <br>
+                                            <input type="hidden" name="listname" value="google-friends">
+                                            <input type="text" name="emailaddr" value="your e-mail"> <br>
+                                            <input type="submit" name="SubmitAction" value="Subscribe">
+                                            &nbsp;&nbsp;
+                                            <a href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/">Archive</a>
                                         </td>
                                     </tr>
                                 </tbody>
